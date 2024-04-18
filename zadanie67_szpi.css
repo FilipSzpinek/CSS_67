@@ -1,0 +1,68 @@
+#id1:first-letter
+ {
+    color:lightgreen;
+ font-size:122pt;
+ }
+
+ #id1
+ {
+    color: orange;
+    size:20pt;
+    
+ }
+
+
+
+ #id2:first-letter
+ {
+    color:red;
+ font-size:122pt;
+ }
+
+ #id2
+ {
+    color: orange;
+    size:20pt;
+    
+ }
+
+
+ h1{
+ color:blue;
+ size:40pt;
+ }
+
+ h1:first-letter
+ {
+    color:silver;
+    font-size:60pt;
+ }
+
+
+
+
+ #id4:first-letter
+ {
+    color:red;
+    font-size: 125pt;
+    font-weight: bold;
+
+ }
+
+
+ #id4:first-line
+ {
+color:red;
+size:20pt;
+font-weight: bold;
+ }
+
+
+ #id4
+ {
+    color:BLUE;
+    size:20pt;
+ }
+
+ 
+

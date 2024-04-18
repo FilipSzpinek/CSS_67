@@ -1,0 +1,42 @@
+ BODY{
+                background-color: silver;
+            }
+            p{font-size:11pt;} 
+
+            p:first-child{font-size:7mm;}
+
+            #pierwszy_szpi{
+                height: auto;
+                width:800;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: lightgreen;
+                border:solid black  3px;
+                border-radius:12px;
+                margin-top: 5px;
+
+
+            }
+
+            #drugi_szpi{
+                height: auto;
+                width:1000;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: lightblue;
+                border: 5px rgb(37, 49, 163) solid;
+                border-radius:14px;
+                margin-top: 10px;
+                
+            }
+
+            #trzeci_szpi{
+                height: auto;
+                width:1200;
+                background-color: lightpink;
+                border: 7px  solid rgb(215, 36, 231);
+                border-radius:19px;
+                margin-top: 15px;
+            }
+
+         

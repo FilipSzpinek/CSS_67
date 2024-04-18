@@ -1,0 +1,78 @@
+<html>
+ <head>
+
+ </head>
+    <style>
+        td,th{
+            border: 2px solid black; 
+        }
+    </style>
+        <body>
+
+            <table>
+
+                <tr>
+                    <center><td colspan="2"><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         Zaokrąglenie narożników obszarów bloków np. DIV</b></td></center>
+                </tr>
+                 <tr>
+                    <td>Zaokrąglenie górnego-lewego narożnika:</td>
+                    <td>selektor { border-top-left-radius: zaokrąglenie }</td>
+                 </tr>
+                <tr>
+                    <td>Zaokrąglenie górnego-prawego narożnika:</td>
+                    <td>selektor { border-top-right-radius: zaokrąglenie }</td>
+                </tr>
+                <tr>
+                    <td>Zaokrąglenie dolnego-prawego narożnika:</td>
+                    <td>selektor { border-bottom-right-radius: zaokrąglenie }</td>
+                </tr>
+                <tr>
+                    <td>Zaokrąglenie dolnego-lewego narożnika:</td>
+                    <td>selektor { border-bottom-left-radius: zaokrąglenie }</td>
+                </tr>
+
+
+                
+
+
+
+            </table>
+            <p>Uwagi i Zastosowanie</p>
+                <textarea>
+                    Zastosowanie:
+We wszystkich przypadkach selektorem może być dowolny znacznik, np. 
+p – akapit
+h1 –nagłówek
+div –blok
+Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w 
+procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj 
+podanie:
+jednej wartości - zaokrąglenie symetryczne
+dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a 
+druga - pionowy
+Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę 
+strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone 
+narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. 
+Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli 
+promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz
+                </textarea>
+                <br><br>
+                <fieldset width="50%">
+                    Przykład: 
+border-top-right-radius: 10px
+                </fieldset>
+
+                <br><br>
+
+                W definicja CSS bloku DIV należy wpisać:<br>
+                <fieldset>
+        margin-left: auto;<br>
+        margin-right: auto;
+    </fieldset>
+
+
+        
+        </body>
+</html>
