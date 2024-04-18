@@ -1,0 +1,181 @@
+<html>
+    <head>
+    </head>
+
+     <body>
+        <style> table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+          }
+          </style>
+            <h1> odpowiedźi na pytania </h1>
+
+            <p>1)składnia teoretyczna definiowania klasy  obramowania (może być tabele 
+                jednokomórkowa),<br>
+                Składnia teoretyczna:
+                selektor.klasa { cecha: wartość }
+                <p>\
+                    <br><br>
+            
+            <p>
+                2)Podaj opis dla Klasa "cecha" oraz "wartość"<br>
+                Klasa to wartość atrybutu class="..." nadanego selektorowi z poziomu języka (X)HTML.
+                "cecha" oraz "wartość" określają atrybuty elementu nadane poprzez style.
+
+            </p>
+
+            <br><br>
+
+            <p>3)Jaki znacznik może być selektorem? Trzy przykłady selektorów dla klas ( ze znaczeniem)<br>
+                Selektorem może być dowolny znacznik, 
+                np. p --> akapit, <br>
+                h1 --> tytuł,<br>
+                td --> komórka tabeli i inne<br>
+            </p>
+
+            <br><br>
+
+            <p>
+                4)Podaj uwagi na temat nazwy klas: <br>
+                Uwagi na temat nazwy klas <br>
+                <ul>
+   <li> Jako klasa należy podać dowolny pojedynczy wyraz, który nie może zawierać 
+    znaków: spacji, kropki, przecinka, dwukropka, pytajnika, nawiasów, znaku równości, 
+    plusa itp. </li> <br>
+    <li> Może natomiast zawierać litery (A-Z, a-z), cyfry (0-9), myślniki ("-") i podkreślniki 
+    ("_"). Lepiej nie używać polskich liter.</li>  <br>
+    <li> Nie może się on również rozpoczynać cyfrą ani myślnikiem.  
+    Jeśli koniecznie chcemy użyć "zakazanych" znaków, należy w deklaracji klasy 
+    poprzedzić je odwróconym ukośnikiem "\", np. reguła: selektor.B\&W\? { cecha: 
+    wartość } odpowiada klasie: class="B&W?"</li>
+</ul>
+
+            </p>
+
+            <br><br>
+
+        <p>
+            5)Jakie jest zastosowanie klas:<br>
+            Zastosowanie
+Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się 
+elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się <br>
+selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co 
+wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie. 
+
+
+
+        </p>
+
+        <br><br>
+
+        <p>
+            6)Kiedy ma zastosowanie lista klas?<br>
+
+                Lista klas<br>
+    Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas, należy posłużyć się 
+    poleceniem:<br>
+    
+
+        </p>
+
+        <br><br>
+
+        <P>
+    7) składnia teoretyczna listy klasy
+
+    <table  >
+        <tr>
+            <td> < selektor class="klasa1 klasa2 klasa3...">...< /selektor></td>
+        </tr>
+    </table>
+       
+
+
+        </P>
+
+        <br><br>
+
+        <p>
+           8) Czym są podzbiory klas. Składnia teoretyczna listy klasy<br>
+            <table  >
+                <tr>
+                    <td> selektor.klasa1.klasa3 { cecha: wartość }
+                        zmieniony zostanie sposób formatowania elementu:
+                        < selektor class="klasa1 klasa2 klasa3">...< /selektor></td>
+                </tr>
+            </table>
+
+        </p>
+
+        <br><br>
+
+        <P>
+            9)Co jest sygnałem (przesłanką), że należy zastosować klasy?<br>
+
+
+
+        </P>
+        <p>10)Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony?</p>
+        <br><br>
+        <P>11)Jaki jest cel stosowania komentarzy podczas definiowania klas?<br>
+                -Chodzi oto żeby wszytsko było poisane
+        </P>
+
+        <br><br>
+        <p>
+            12)Podaj konkretny przykład definiowania klasy oraz jej użycia(wywołanie).
+            <br>  Przykład<br>
+    definicja arkusza styli<br>
+    .moja<br>
+    {<br>
+    color:red;<br>
+    font-size:12pt;<br>
+    font-style:italic;<br>
+    }<br>
+    wywołanie<br>
+        
+        </p>
+        <br><br>
+        <p>
+            13) Omów klasa donosząca się tylko do jednego selektora wraz z przykładem
+            1)Klasa donosząca się tylko do jednego selektora
+            Podobnie jak w przypadku identyfikatora, tak zdefiniowana klasa może zostać użyta tylko w 
+            <br>tym selektorze, do którego została przypisana, np.:<br>
+            definicja arkusza styli<br>
+            p.moja<br>
+            {<br>
+            color:green;<br>
+            font-size:14pt;<br>
+            }<br>
+            wywołanie
+            Powinna zostać wywołana w znaczniku < p>< /p> w następujący sposób:
+            < p class=”moja”>Treść akapitu< /p><br>
+        </p>
+
+        <br><br>
+                
+            <p>
+
+                14) Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy 
+można nie stosować tego znaku. Podaj przykład (definicja, wywołanie)<br>
+                <br>Klasa uniwersalna<br>
+        W przypadku stosowanie klas, często podczas ich definiowania, nie wiemy jeszcze, w 
+        stosunku do jakich znaczników będziemy chcieli je później użyć. Wtedy przydatny okazuje 
+        się selektor uniwersalny, który pozwala przypisać własności klasy do wszystkich elementów, 
+        którym zostanie ona nadana, bez względu na typ znacznika czyli użycie jest możliwe w 
+        różnych znacznikach.<br>
+        Przykład:<br>
+        definicja arkusza styli
+        *.przyklad_uniwersalna { color: red }
+        Każdy element, któremu nadamy klasę przyklad_uniwersalna, będzie miał kolor czerwony.
+        W tym przypadku gwiazdkę (*) w regule stylu można pominąć:
+        .przyklad_uniwersalna { font-size:12 pt; color: red }
+            </p>
+
+
+
+     </body>
+</html>
+
+
+
