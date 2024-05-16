@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <style type="text/css"> /* początek def CSS */
+ * { margin: 0px; padding: 0px;} /* zerowanie styli */
+ div {overflow: hidden; padding: 25px; }
+/* overflow: hidden --> ????????????????? */
+/* padding: 25px; --> ??????????????????*/
+ #ramka { /* definicja elementu ID o nazwie ramka*/
+ margin-right: auto; /* auto -->??????? */
+ margin-left: auto;
+ min-width: 400px; /* minimalna szer strony-->?? */
+ max_width: 900px; /* maksymalna szer strony-->?? */
+ }
+ #naglowek {
+ background-color: NAVY; 
+/* kolor tła w HEX na #FCF; */
+ font-size:16pt; 
+/* wielkość czcionki na 16 na jaka tu jest jednostka-wpisz */
+ color:red; 
+/* ????????????? */
+ font-family: Arial; 
+/* ????????????? */
+ font-style: italic;
+/* ????????????? */
+ text-align: center; 
+/* ????????????? */
+ font-weight:bold;
+/* ????????????? */
+ }
+ #stopka {
+ background-color: lightblue;
+ font-size:16pt; 
+ color:blue; 
+ font-family: Arial; 
+ font-style: italic;
+ clear:both; 
+/* clear-przyleganie elementów, both-?????????????? */
+ }
+.kolumny {/*definicja elementu ???? (jest kropka i co to znaczy)*/
+ margin-top: 10px; /* ????????????? */
+ margin-right: 2%; /* ????????????? */
+ margin-bottom: 2%; /* ????????????? */
+ margin-left: 10px; /* ????????????? */
+ background-color: deepskyblue;
+ }
+ #kol1 {
+ float: left; /* ?????????????? */
+ width:100px;
+ }
+ #kol2 {
+ }
+
+ #id1{
+color:green;
+font-size: 0.7cm;
+ }
+
+img{
+    margin-left: 100px;
+}
+
+</style>
+ </head>
+<body>
+ <div id="ramka">
+ <div id="naglowek">Nagłówek mojej strony </div>
+ <div class="kolumny" id="kol1"><p>Menu</p> </div>
+ <div class="kolumny" id="kol2"><p id="id1">>Treść <br>
+    Szablon pływający (płynny szablon)<br>
+    Przy zmianie szerokości okna przeglądarki zmieniać się będzie szerokość kolumn.<br>
+    Najczęściej zmiana szerokości dotyczy tylko wybranych kolumn np. kolumna menu<br>
+    pozostaje niezmieniona, pozostałe kolumny zmieniaja się płynnie w stosunku do <br>
+    szerokości okna. </p>  
+  <img src="p100.png"><img src="p50.png">
+       </div>
+ <div id="stopka">Pracę wykonał nieznany woluntariusz</div>
+ </div>
+</body>
+</html>

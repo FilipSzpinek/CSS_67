@@ -1,0 +1,136 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<! xmlns okresla przestrzeń nazw dla xml -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+<title>styl wewnetrzny body</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!- styl wewnetrzny -->
+<style type="text/css">
+ /* zerowanie wszystkich marginesów i przestrzeni*/
+ * {
+ margin: 0px;
+ padding: 0px; 
+ }
+ /* definicja div*/
+ /* overflow: hidden - -> ukrycie nadmiarowości czyli gdy elementy div są za duże*/
+ div {
+ overflow: hidden;
+ }
+ /* definicja ramki-główny element*/
+ /* margin-right: auto;-wartość domyślna */
+ #ramka {
+ background-color: #C93;
+ width: 1000px;
+ margin-right: auto;
+ margin-left: auto;
+ } 
+ /* definicja nagłówka*/ 
+ #naglowek {
+ width: 100%;
+ background-color: rgb(255, 252, 51);
+ }
+ /* definicja stopki*/ 
+ #stopka {
+ width: 100%;
+ background-color: rgb(77, 67, 58); 
+ }
+ /* definicja klasy kolumny */
+ .kolumny {
+ width:30%;
+ margin-top:10px;
+ margin-right:2%;
+ margin-bottom:2%;
+ margin-left:10px;
+ }
+ /* definicje trzech kolumn */
+ /* float :left; to aby elementy były obok siebie */ 
+ 
+ #kolumna_pierwsza {
+ float:left;
+ background-color: rgb(140, 241, 109);
+ }
+ #kolumna_druga {
+ float:left;
+ background-color: rgb(60, 105, 173);
+ } 
+ #kolumna_trzecia { 
+ background-color: rgb(117, 78, 52);
+ float:left;
+ }
+ #id1{
+    color:green;
+    text-align: center;
+    font-size: 1cm;
+ }
+
+ ul,li{
+margin-left: 10px;
+ }
+ a:hover{
+    color:rgb(228, 222, 222);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+ }
+ a:link{
+    color:rgb(163, 161, 161);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+ }
+</style>
+</head>
+<body>
+ <div id="ramka">
+ <div id="naglowek"><p id="id1">Filip Szpinek 1P </p></div>
+ <div class="kolumny" id="kolumna_pierwsza">
+ Możliwe technologie wykonia szablonu strony WWW
+    <ul>
+        <li>w oparciu o tabele (HTML→nie stosowane)</li>
+        <li>w oparciu o iframe (HTML→nie stosowane)</li>
+        <li> na DIVach</li>
+        <li>w oparciu o instrukcje HTML5</li>
+    </ul>
+
+
+
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ </div>
+ <div class="kolumny" id="kolumna_druga">
+ <p> • overflow: hidden; →ukrycie nadmiarowości czyli gdy elementy div są za duże<br>
+    • float:left; →wyrównanie tekstu do lewej <br>
+    • margin-top:10px; →odstęp marginesu górneo 10 px<br>
+    • margin-right:2%;→margine prawy=2% całości<br>
+    • margin-bottom:2%;→margines dolny=2% całośći<br>
+    • margin-left:10px→margines lewy 10 px<br> </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ </div>
+ <div class="kolumny" id="kolumna_trzecia">
+    Elemny dodane w HTML5
+ <ul>
+    <li>SECTION</li>
+    <li>ARTICLE</li>
+    <li>ASIDE</li>
+    <li>HEADER</li>
+    <li>NAV</li>
+
+ </ul>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ </div>
+ <div id="stopka"><a href="index.html">POWRÓT</a> </div> 
+ </div> 
+
+ 
+</body>
+</html>
+<!--FILIP SZPINEK-->
